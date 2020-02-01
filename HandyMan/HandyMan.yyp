@@ -90,7 +90,7 @@
             "Key": "43644c13-9e61-4138-bdd9-904f5e200e98",
             "Value": {
                 "id": "3344e82a-61ae-4f42-9b53-693ad0f352f6",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rJosh\\rJosh.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -124,6 +124,14 @@
                 "id": "efedea0d-aa93-4591-a8c2-c433826bfd12",
                 "resourcePath": "views\\606c5c5a-986e-478b-962e-e473e5e33f80.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "62ae3988-c1ce-4fbf-b8d6-4e3ea016c2fa",
+            "Value": {
+                "id": "a5a9efd1-d97e-4901-af04-f4fccb09d1fb",
+                "resourcePath": "objects\\oBox\\oBox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -236,6 +244,14 @@
                 "id": "fbbfbe03-984b-40a0-9b89-62cfd3748056",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd0103b4-9872-42ed-bae1-d2e2c483d455",
+            "Value": {
+                "id": "9cdd21a0-63cf-4f1b-8f4d-2cb6adf4f811",
+                "resourcePath": "sprites\\sprite5\\sprite5.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-physics_apply_local_force(x,y,10,0)
+if (keyboard_check_direct(ord(" "))) {
+	physics_apply_local_force(x,y,1,0)
+}
