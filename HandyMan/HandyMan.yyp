@@ -146,7 +146,7 @@
             "Key": "9345ba20-169e-42ac-870d-fb47e6bee559",
             "Value": {
                 "id": "f9a096f2-dd71-4b1e-9407-8597b9245072",
-                "resourcePath": "objects\\game\\game.yy",
+                "resourcePath": "objects\\oGame\\oGame.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -178,7 +178,7 @@
             "Key": "bca2b1cc-11b3-4c02-a987-9c79748c5bbd",
             "Value": {
                 "id": "4faf9cd2-812d-4aae-8fdf-447afbaa56d1",
-                "resourcePath": "objects\\object0\\object0.yy",
+                "resourcePath": "objects\\oFloor\\oFloor.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -202,7 +202,7 @@
             "Key": "e2089f84-5a17-467d-9488-fd8365061a4f",
             "Value": {
                 "id": "ab758028-829e-4344-85ce-5cd0262eaa27",
-                "resourcePath": "objects\\ball\\ball.yy",
+                "resourcePath": "objects\\oBall\\oBall.yy",
                 "resourceType": "GMObject"
             }
         },
