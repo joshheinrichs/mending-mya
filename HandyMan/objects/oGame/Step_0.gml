@@ -13,12 +13,10 @@ if (mouse_check_button_pressed(mb_left) and position_meeting(mouse_x,mouse_y,oGr
 {
 	show_debug_message("grab")
 	grabbed = instance_position(mouse_x,mouse_y,oGrabbable)
-	//grabbed.phy_kinematic = true;
 }
 if(mouse_check_button_released(mb_left) and grabbed != noone)
 {
 	show_debug_message("release")
-	//grabbed.phy_kinematic = false;
 	grabbed = noone
 }
 
@@ -40,10 +38,10 @@ if (grabbed != noone)
 	grabbed.phy_position_y = mouse_y
 	
 	if (keyboard_check_direct(ord("E"))) {
-		grabbed.phy_rotation += 10
+		grabbed.phy_angular_velocity += 10
 	}
 	if (keyboard_check_direct(ord("Q"))) {
-		grabbed.phy_rotation -= 10
+		grabbed.phy_angular_velocity -= 10
 	}
 	
 	if (keyboard_check_pressed(ord("W"))) {
@@ -59,7 +57,7 @@ if (grabbed != noone)
 		if (!ds_map_exists(joint_map, o1)) {
 			// weld
 			if (o2 != noone) {
-				joint = physics_joint_weld_create(o1, o2, mouse_x, mouse_y, o2.image_angle - o1.image_angle, 0, 0, false)
+				joint = physics_joint_weld_create(o1, o2, mouse_x, mouse_y, o2.image_angle - o1.image_angle - 180, 0, 0, false)
 				ds_map_add(joint_map, o1, joint)
 				if (!ds_map_exists(object_welds, o1)) {
 					ds_map_set(object_welds, o1, ds_list_create())
