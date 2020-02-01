@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "b0b4a163-8f1b-48cb-aec3-703c0df0bfda",
+            "Value": {
+                "id": "86c26780-21de-413f-9e0e-6ada0993e9f1",
+                "resourcePath": "objects\\oGarageFloor\\oGarageFloor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b34e8263-9510-44cd-808a-b663ae27b300",
             "Value": {
                 "id": "e64cd7dd-8428-415a-8121-aed8d1e30842",
@@ -356,6 +364,14 @@
                 "id": "3b1ebb7b-0181-4b0d-b36a-b826eff31e19",
                 "resourcePath": "views\\e61d20f7-457e-4495-bb06-e2c3962ded94.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e9dedff5-093c-4799-94cc-be8a964f8eac",
+            "Value": {
+                "id": "8abd97e2-17cf-4b27-8621-e469393ac943",
+                "resourcePath": "sprites\\sGarageFloor\\sGarageFloor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
