@@ -5,16 +5,6 @@
     "name": "oBall",
     "eventList": [
         {
-            "id": "25bc5971-80bc-412a-8010-e4b889900c8b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e2089f84-5a17-467d-9488-fd8365061a4f"
-        },
-        {
             "id": "b5da85ca-cbe7-439b-abaa-ae9933c5efc6",
             "modelName": "GMEvent",
             "mvc": "1.0",

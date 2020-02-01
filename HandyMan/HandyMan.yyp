@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "28cf5cd6-9b9e-4177-a30c-c1390c1d4a57",
+            "Value": {
+                "id": "5bbc38ec-3f8f-4c5b-9611-a01c0e2203fe",
+                "resourcePath": "sprites\\sSmallPipe\\sSmallPipe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "293b1d58-ff84-4d8d-8e2f-a68f116eca6d",
             "Value": {
                 "id": "30521a75-d8bd-4830-b21a-dd82bbd68e1a",
@@ -119,11 +127,27 @@
             }
         },
         {
+            "Key": "32797e00-37d5-4ce9-82b0-e601b44efb06",
+            "Value": {
+                "id": "37c15982-f22f-4b59-852b-82dc618941ed",
+                "resourcePath": "objects\\oLargePipe\\oLargePipe.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "350c0d91-8ee5-4431-a22f-bd81ef85e36d",
             "Value": {
                 "id": "f44543a9-7f00-423f-a617-09114efdba31",
                 "resourcePath": "sprites\\sprite2\\sprite2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3582f44f-c4f6-42c2-8179-d68eb9972cea",
+            "Value": {
+                "id": "239e074b-0232-49cd-a9af-e3cf814d971e",
+                "resourcePath": "objects\\oSmallPipe\\oSmallPipe.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -164,6 +188,14 @@
                 "id": "3c92af5b-4dd2-4bbe-86c1-3ace5a6368cc",
                 "resourcePath": "views\\5171351f-2588-4f0e-9b36-568291b824bc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5a25b351-4756-4d27-81e0-61ea617177ae",
+            "Value": {
+                "id": "98597cde-2e82-4cd1-94e2-5508c7b834f7",
+                "resourcePath": "sprites\\sRocket\\sRocket.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -247,11 +279,27 @@
             }
         },
         {
+            "Key": "91be6c28-9c2d-44e8-a48e-2b599ac60ff0",
+            "Value": {
+                "id": "3c255bf3-d25f-4ec2-948c-d5d8f38c4e33",
+                "resourcePath": "sprites\\sMedPipe\\sMedPipe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9345ba20-169e-42ac-870d-fb47e6bee559",
             "Value": {
                 "id": "f9a096f2-dd71-4b1e-9407-8597b9245072",
                 "resourcePath": "objects\\oGame\\oGame.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a0d2257e-04b0-4c7a-be98-51dda3d83b5b",
+            "Value": {
+                "id": "7af2f398-04cc-428e-a2cb-9aca8ec39a7b",
+                "resourcePath": "scripts\\freeze_object\\freeze_object.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -327,6 +375,14 @@
             }
         },
         {
+            "Key": "cc2480f6-e43e-4a51-97c7-dbef35b93fbc",
+            "Value": {
+                "id": "a657b95a-fce4-493e-8e4a-3b75c7f74e21",
+                "resourcePath": "objects\\oWeldable\\oWeldable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "fbbfbe03-984b-40a0-9b89-62cfd3748056",
@@ -351,10 +407,26 @@
             }
         },
         {
+            "Key": "d4deeb67-8917-45d2-9f2c-b3a17a29853d",
+            "Value": {
+                "id": "7682575b-95ed-4cd5-9f02-028b94ac19a8",
+                "resourcePath": "sprites\\sLargePipe\\sLargePipe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2089f84-5a17-467d-9488-fd8365061a4f",
             "Value": {
                 "id": "ab758028-829e-4344-85ce-5cd0262eaa27",
                 "resourcePath": "objects\\oBall\\oBall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e43096ac-08b3-43dd-8317-8f4d831152b5",
+            "Value": {
+                "id": "bac332e8-6409-4f2a-9510-842ca9396a33",
+                "resourcePath": "objects\\oMedPipe\\oMedPipe.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -408,7 +480,7 @@
         }
     ],
     "script_order": [
-        
+        "a0d2257e-04b0-4c7a-be98-51dda3d83b5b"
     ],
     "tutorial": ""
 }
