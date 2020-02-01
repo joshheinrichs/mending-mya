@@ -1,48 +1,38 @@
 {
-    "id": "ea8129f7-67b1-4312-878a-ae7077ecd4ff",
+    "id": "3c7e8240-c754-4bbd-9e27-465727f8d961",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGrabbable",
+    "name": "oGameAlex",
     "eventList": [
         {
-            "id": "9f5b9569-163a-4ec0-a7b5-8e32a275e548",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "bca2b1cc-11b3-4c02-a987-9c79748c5bbd",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "ea8129f7-67b1-4312-878a-ae7077ecd4ff"
-        },
-        {
-            "id": "2c07167c-cd7e-45ee-9dbf-85d0a34fe2ae",
+            "id": "ab5b4e1b-695f-4c8c-8376-c2bd4e18968f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ea8129f7-67b1-4312-878a-ae7077ecd4ff"
+            "m_owner": "3c7e8240-c754-4bbd-9e27-465727f8d961"
         },
         {
-            "id": "d1be5733-4e5d-44ad-a497-4c1231c8a72c",
+            "id": "d7406c7d-b6c0-4253-afa4-0c16b3a50556",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "3eba569e-6eac-4d57-9c7f-4aae77b84914",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "ea8129f7-67b1-4312-878a-ae7077ecd4ff"
+            "eventtype": 3,
+            "m_owner": "3c7e8240-c754-4bbd-9e27-465727f8d961"
         },
         {
-            "id": "88627f61-ca7a-43ae-b879-3729e4b21e9a",
+            "id": "8e8ba29b-77b9-4d89-afcd-4439a9eb3482",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "b0b4a163-8f1b-48cb-aec3-703c0df0bfda",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "ea8129f7-67b1-4312-878a-ae7077ecd4ff"
+            "eventtype": 8,
+            "m_owner": "3c7e8240-c754-4bbd-9e27-465727f8d961"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
