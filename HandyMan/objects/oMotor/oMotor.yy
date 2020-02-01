@@ -1,10 +1,19 @@
 {
-    "id": "e2470a3a-1304-4612-b020-ad0652bce776",
+    "id": "04a6e14d-8ad5-4e18-a6e1-7314337f5804",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oMotor",
     "eventList": [
-        
+        {
+            "id": "53dbff7d-2987-4a14-b3b6-5b4e142a3ecc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "04a6e14d-8ad5-4e18-a6e1-7314337f5804"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
