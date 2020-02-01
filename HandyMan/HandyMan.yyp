@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "2de12034-0d48-4ebd-b097-d19dd874391b",
+            "Value": {
+                "id": "5cf00253-f0c6-4cc9-9334-a84887fd881f",
+                "resourcePath": "sprites\\sprite1\\sprite1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43644c13-9e61-4138-bdd9-904f5e200e98",
             "Value": {
                 "id": "3344e82a-61ae-4f42-9b53-693ad0f352f6",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "640c5030-7eed-425e-b241-9ff6924de0fe",
+            "Value": {
+                "id": "6222c7dc-2a2f-4871-adb5-c0e481fbe44b",
+                "resourcePath": "sprites\\test\\test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6654c61a-66e6-44f3-bb1b-ba12be385592",
             "Value": {
                 "id": "4ae11db4-76e7-493f-b446-a1800a4cf4a8",
@@ -124,6 +140,14 @@
                 "id": "c04250a5-f997-411b-b626-492895c066da",
                 "resourcePath": "views\\85791ae6-09b1-4b9e-971f-b92deec48aae.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9345ba20-169e-42ac-870d-fb47e6bee559",
+            "Value": {
+                "id": "f9a096f2-dd71-4b1e-9407-8597b9245072",
+                "resourcePath": "objects\\game\\game.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -151,6 +175,14 @@
             }
         },
         {
+            "Key": "bca2b1cc-11b3-4c02-a987-9c79748c5bbd",
+            "Value": {
+                "id": "4faf9cd2-812d-4aae-8fdf-447afbaa56d1",
+                "resourcePath": "objects\\object0\\object0.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c09535fd-6256-42c8-b1d0-3148c41b2815",
             "Value": {
                 "id": "3f642015-2f60-42b5-a895-03a1c8de5304",
@@ -164,6 +196,14 @@
                 "id": "fbbfbe03-984b-40a0-9b89-62cfd3748056",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "e2089f84-5a17-467d-9488-fd8365061a4f",
+            "Value": {
+                "id": "ab758028-829e-4344-85ce-5cd0262eaa27",
+                "resourcePath": "objects\\ball\\ball.yy",
+                "resourceType": "GMObject"
             }
         },
         {
