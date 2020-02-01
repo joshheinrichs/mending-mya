@@ -1,6 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (keyboard_check_pressed(ord("1"))) {
+	room_goto(rJosh)	
+}
+if (keyboard_check_pressed(ord("2"))) {
+	room_goto(rAlex)
+}
+
+
 if (mouse_check_button_pressed(mb_left) and position_meeting(mouse_x,mouse_y,oGrabbable))
 {
 	show_debug_message("grab")
