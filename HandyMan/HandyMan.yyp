@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "a0d2257e-04b0-4c7a-be98-51dda3d83b5b",
+            "Value": {
+                "id": "7af2f398-04cc-428e-a2cb-9aca8ec39a7b",
+                "resourcePath": "scripts\\freeze_object\\freeze_object.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "4a0be683-3431-4284-9857-023f3eb54bd7",
@@ -312,7 +320,7 @@
         }
     ],
     "script_order": [
-        
+        "a0d2257e-04b0-4c7a-be98-51dda3d83b5b"
     ],
     "tutorial": ""
 }

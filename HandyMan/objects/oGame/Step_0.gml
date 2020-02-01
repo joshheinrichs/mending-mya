@@ -24,31 +24,59 @@ if(mouse_check_button_released(mb_left) and grabbed != noone)
 
 if (grabbed != noone)
 {
-	with(grabbed)
-	{
-		phy_linear_velocity_x = 0
-		phy_linear_velocity_y = 0
-		phy_angular_velocity = 0
-		phy_position_x = mouse_x
-		phy_position_y = mouse_y
+	show_debug_message("grabbed " + string(grabbed))
+	freeze_object(grabbed)
+	show_debug_message("froze " + string(grabbed))
+	if (ds_map_exists(object_welds, grabbed)) {
+		welds = ds_map_find_value(object_welds, grabbed)
+		for(i = 0; i < ds_list_size(welds); i++) {
+			o = ds_list_find_value(welds, i)
+			show_debug_message("subfroze " + string(o))
+			freeze_object(o)
+		}
 	}
+
+	grabbed.phy_position_x = mouse_x
+	grabbed.phy_position_y = mouse_y
 	
 	if (keyboard_check_direct(ord("E"))) {
-		grabbed.phy_angular_velocity = 100
+		grabbed.phy_rotation += 10
 	}
 	if (keyboard_check_direct(ord("Q"))) {
-		grabbed.phy_angular_velocity = -100
+		grabbed.phy_rotation -= 10
 	}
 	
 	if (keyboard_check_pressed(ord("W"))) {
 		show_debug_message("weld")
-		if (ds_map_exists(joint_map, grabbed)) {
-			joint = ds_map_find_value(joint_map, grabbed)
-			ds_map_delete(joint_map, grabbed)
-			physics_joint_delete(joint)
+	
+		var o1 = grabbed
+		var o2
+		with(o1) {
+			o2 = instance_place(x, y, oGrabbable);
+			show_debug_message("welding " + string(o2))
+		}
+
+		if (!ds_map_exists(joint_map, o1)) {
+			// weld
+			if (o2 != noone) {
+				joint = physics_joint_weld_create(o1, o2, mouse_x, mouse_y, 0, 10000, 0, false)
+				ds_map_add(joint_map, o1, joint)
+				if (!ds_map_exists(object_welds, o1)) {
+					ds_map_set(object_welds, o1, ds_list_create())
+				}
+				if (!ds_map_exists(object_welds, o2)) {
+					ds_map_set(object_welds, o2, ds_list_create())
+				}
+				ds_list_add(ds_map_find_value(object_welds, o1), o2)
+				ds_list_add(ds_map_find_value(object_welds, o2), o1)
+			} 
 		} else {
-			joint = physics_joint_weld_create(grabbed, oBox, mouse_x, mouse_y, 0, 10000, 0, false)
-			ds_map_add(joint_map, grabbed, joint)
+			// unweld
+			if (ds_map_exists(joint_map, o1)) {
+				joint = ds_map_find_value(joint_map, o1)
+				ds_map_delete(joint_map, o1)
+				physics_joint_delete(joint)
+			}
 		}
 	}
 }
