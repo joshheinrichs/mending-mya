@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0c950f1d-f36a-44eb-ae31-393baae72e47",
+            "Value": {
+                "id": "82a22b9d-ed80-4db8-acd3-be9e124d8438",
+                "resourcePath": "sprites\\sGarage\\sGarage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "16eeb7e6-eb35-44cc-9c3e-960122271e0c",
             "Value": {
                 "id": "75459e29-777a-4904-9cff-1fe5ad0e5c1e",
@@ -75,6 +83,14 @@
             "Value": {
                 "id": "0c9af5b5-5ac9-403e-af5b-5ed705eb5604",
                 "resourcePath": "sprites\\sLight\\sLight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "218202a2-01c6-4c21-951f-218687df0f5a",
+            "Value": {
+                "id": "f56f57d0-7bc4-48cb-9a8d-29d2d904dcc8",
+                "resourcePath": "sprites\\sWorkbench\\sWorkbench.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -108,6 +124,14 @@
                 "id": "f44543a9-7f00-423f-a617-09114efdba31",
                 "resourcePath": "sprites\\sprite2\\sprite2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3c7e8240-c754-4bbd-9e27-465727f8d961",
+            "Value": {
+                "id": "49d9a157-473e-4b19-901f-08596aad3aa4",
+                "resourcePath": "objects\\oGameAlex\\oGameAlex.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -156,14 +180,6 @@
                 "id": "efedea0d-aa93-4591-a8c2-c433826bfd12",
                 "resourcePath": "views\\606c5c5a-986e-478b-962e-e473e5e33f80.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "622558d6-f647-4a7a-ad0b-280b6f3a03f5",
-            "Value": {
-                "id": "ffceee2b-5a96-4b07-a409-a13501f3a256",
-                "resourcePath": "objects\\object11\\object11.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -347,6 +363,14 @@
             "Value": {
                 "id": "544375f1-8be4-4cfb-9da2-29b6a881840a",
                 "resourcePath": "objects\\oGrabbable\\oGrabbable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eaada14e-4cb6-4cc1-b32a-c31760ab82a0",
+            "Value": {
+                "id": "81345b46-5850-46bd-bda1-9a72a7bbe6f3",
+                "resourcePath": "objects\\oWorkbench\\oWorkbench.yy",
                 "resourceType": "GMObject"
             }
         },
