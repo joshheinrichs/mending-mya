@@ -1,23 +1,23 @@
 {
-    "id": "ea8129f7-67b1-4312-878a-ae7077ecd4ff",
+    "id": "04a6e14d-8ad5-4e18-a6e1-7314337f5804",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGrabbable",
+    "name": "oMotor",
     "eventList": [
         {
-            "id": "9f5b9569-163a-4ec0-a7b5-8e32a275e548",
+            "id": "53dbff7d-2987-4a14-b3b6-5b4e142a3ecc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "bca2b1cc-11b3-4c02-a987-9c79748c5bbd",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "ea8129f7-67b1-4312-878a-ae7077ecd4ff"
+            "eventtype": 0,
+            "m_owner": "04a6e14d-8ad5-4e18-a6e1-7314337f5804"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "ea8129f7-67b1-4312-878a-ae7077ecd4ff",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

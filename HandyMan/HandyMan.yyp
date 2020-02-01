@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "04a6e14d-8ad5-4e18-a6e1-7314337f5804",
+            "Value": {
+                "id": "643d9d1b-3232-4a46-ae63-80d9cb797f8e",
+                "resourcePath": "objects\\oMotor\\oMotor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "16eeb7e6-eb35-44cc-9c3e-960122271e0c",
             "Value": {
                 "id": "75459e29-777a-4904-9cff-1fe5ad0e5c1e",
@@ -103,14 +111,6 @@
             }
         },
         {
-            "Key": "522f1500-aa3e-4db7-84ed-6401c35efd3f",
-            "Value": {
-                "id": "e4af54b7-fadb-45e6-9889-1f346202a931",
-                "resourcePath": "objects\\oGrabbable\\oGrabbable.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5efea44f-04d9-437c-8d3c-ae3528568052",
             "Value": {
                 "id": "ad85c478-bce1-46e2-ae8d-4b272ac0ba7d",
@@ -164,6 +164,14 @@
                 "id": "1a054da5-bcad-4f36-b6d2-0a1da6591224",
                 "resourcePath": "views\\6e2da63c-e694-4fd3-bbd6-10637ff00817.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7705ffa4-a0dd-4970-b17e-7203972e6326",
+            "Value": {
+                "id": "b42a386f-2748-4210-8f91-ce785c16c4b1",
+                "resourcePath": "rooms\\rAlex\\rAlex.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "d411fc59-72a6-4de1-af65-1fa9f403ba1e",
+            "Value": {
+                "id": "5fea1a89-63a9-4961-bc5b-d2b526f7bdc1",
+                "resourcePath": "objects\\oDisplay\\oDisplay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e2089f84-5a17-467d-9488-fd8365061a4f",
             "Value": {
                 "id": "ab758028-829e-4344-85ce-5cd0262eaa27",
@@ -268,6 +284,14 @@
                 "id": "3b1ebb7b-0181-4b0d-b36a-b826eff31e19",
                 "resourcePath": "views\\e61d20f7-457e-4495-bb06-e2c3962ded94.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ea8129f7-67b1-4312-878a-ae7077ecd4ff",
+            "Value": {
+                "id": "544375f1-8be4-4cfb-9da2-29b6a881840a",
+                "resourcePath": "objects\\oGrabbable\\oGrabbable.yy",
+                "resourceType": "GMObject"
             }
         },
         {
