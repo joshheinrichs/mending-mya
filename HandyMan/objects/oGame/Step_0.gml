@@ -52,14 +52,14 @@ if (grabbed != noone)
 		var o1 = grabbed
 		var o2
 		with(o1) {
-			o2 = instance_place(x, y, oGrabbable);
+			o2 = instance_place(x, y, oWeldable);
 			show_debug_message("welding " + string(o2))
 		}
 
 		if (!ds_map_exists(joint_map, o1)) {
 			// weld
 			if (o2 != noone) {
-				joint = physics_joint_weld_create(o1, o2, mouse_x, mouse_y, 0, 10000, 0, false)
+				joint = physics_joint_weld_create(o1, o2, mouse_x, mouse_y, o2.image_angle - o1.image_angle, 0, 0, false)
 				ds_map_add(joint_map, o1, joint)
 				if (!ds_map_exists(object_welds, o1)) {
 					ds_map_set(object_welds, o1, ds_list_create())

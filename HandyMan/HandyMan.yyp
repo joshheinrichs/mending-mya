@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "cc2480f6-e43e-4a51-97c7-dbef35b93fbc",
+            "Value": {
+                "id": "a657b95a-fce4-493e-8e4a-3b75c7f74e21",
+                "resourcePath": "objects\\oWeldable\\oWeldable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "fbbfbe03-984b-40a0-9b89-62cfd3748056",
