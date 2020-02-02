@@ -4,20 +4,11 @@
     "mvc": "1.0",
     "name": "oSnakeBody",
     "eventList": [
-        {
-            "id": "bb6af447-52ab-48f0-8dc9-0a4d56fa50d7",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "4fe90bbb-4387-462c-91e5-a82c7758f8f9"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "ea8129f7-67b1-4312-878a-ae7077ecd4ff",
+    "parentObjectId": "d21a99e2-d2a0-466c-8eb2-45709f930354",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

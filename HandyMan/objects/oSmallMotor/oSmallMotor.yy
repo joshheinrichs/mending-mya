@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "oSmallMotor",
     "eventList": [
-        {
-            "id": "181602a3-184f-4652-b164-7fbf48d46f39",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "04a6e14d-8ad5-4e18-a6e1-7314337f5804"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
