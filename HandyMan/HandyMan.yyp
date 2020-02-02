@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "983bfb69-9cd3-4357-8211-5a84a5ca3f01",
+            "Value": {
+                "id": "463dd7be-1a27-403f-8de3-6f3366d84eba",
+                "resourcePath": "objects\\oComputer\\oComputer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9ef3d027-9d8d-4820-a410-3f632ae55e9f",
             "Value": {
                 "id": "7b64c6fc-5a7a-4381-afc9-63366e42cb47",
