@@ -12,20 +12,21 @@ if (keyboard_check_pressed(ord("2"))) {
 if (mouse_check_button_pressed(mb_left) and position_meeting(mouse_x,mouse_y,oGrabbable))
 {
 	show_debug_message("grab")
-	grabbed = instance_position(mouse_x,mouse_y,oGrabbable)
-	grabbed_offset_x = grabbed.x - mouse_x
-	grabbed_offset_y = grabbed.y - mouse_y
+	grabbed = instance_position(mouse_x,mouse_y,oGrabbable)	
 }
 if(mouse_check_button_released(mb_left) and grabbed != noone)
 {
 	show_debug_message("release")
+	grabbed.phy_fixed_rotation = false
 	grabbed = noone
+	
 }
 
 if (grabbed != noone)
 {
 	//show_debug_message("grabbed " + string(grabbed))
 	freeze_object(grabbed)
+	grabbed.phy_fixed_rotation = true
 	//show_debug_message("froze " + string(grabbed))
 //	if (ds_map_exists(object_welds, grabbed)) {
 //		welds = ds_map_find_value(object_welds, grabbed)
@@ -36,8 +37,8 @@ if (grabbed != noone)
 //		}
 //	}
 
-	grabbed.phy_position_x = mouse_x + grabbed_offset_x
-	grabbed.phy_position_y = mouse_y + grabbed_offset_y
+	grabbed.phy_position_x = mouse_x // - grabbed_offset_x
+	grabbed.phy_position_y = mouse_y // - grabbed_offset_y
 	
 	if (keyboard_check_direct(ord("E"))) {
 		grabbed.phy_rotation += 10
@@ -82,7 +83,7 @@ if (grabbed != noone)
 				show_debug_message("weld")
 				var joint
 				if (o2.object_index == oSmallMotor) {
-					joint = physics_joint_revolute_create(o1, o2, mouse_x, mouse_y, 0, 0, false, 10, 10, true, false)
+					joint = physics_joint_revolute_create(o1, o2, o2.x, o2.y, 0, 0, false, 1000, 10, true, false)
 				} else {
 					joint = physics_joint_revolute_create(o1, o2, mouse_x, mouse_y, 0, 0, true, 10, 10, false, false)
 					// joint = physics_joint_weld_create(o1, o2, mouse_x, mouse_y, point_direction(o1.x, o1.y, mouse_x, mouse_y), 0, 0, false)
