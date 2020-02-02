@@ -27,23 +27,23 @@ if (grabbed != noone)
 	show_debug_message("grabbed " + string(grabbed))
 	freeze_object(grabbed)
 	show_debug_message("froze " + string(grabbed))
-	if (ds_map_exists(object_welds, grabbed)) {
-		welds = ds_map_find_value(object_welds, grabbed)
-		for(i = 0; i < ds_list_size(welds); i++) {
-			o = ds_list_find_value(welds, i)
-			show_debug_message("subfroze " + string(o))
-			freeze_object(o)
-		}
-	}
+//	if (ds_map_exists(object_welds, grabbed)) {
+//		welds = ds_map_find_value(object_welds, grabbed)
+//		for(i = 0; i < ds_list_size(welds); i++) {
+//			o = ds_list_find_value(welds, i)
+//			show_debug_message("subfroze " + string(o))
+//			freeze_object(o)
+//		}
+//	}
 
 	grabbed.phy_position_x = mouse_x + grabbed_offset_x
 	grabbed.phy_position_y = mouse_y + grabbed_offset_y
 	
 	if (keyboard_check_direct(ord("E"))) {
-		grabbed.phy_angular_velocity += 10
+		grabbed.phy_rotation += 10
 	}
 	if (keyboard_check_direct(ord("Q"))) {
-		grabbed.phy_angular_velocity -= 10
+		grabbed.phy_rotation -= 10
 	}
 	
 	if (keyboard_check_pressed(ord("W"))) {
