@@ -64,7 +64,13 @@ if (grabbed != noone)
 			}
 			with(o1) {
 				if (place_meeting(x, y, o)) {
+					if (o.object_index == oSmallMotor) {
+						ds_list_clear(o2s)
+					}
 					ds_list_add(o2s, o)
+					if (o.object_index == oSmallMotor) {
+						break
+					}
 				}
 			}
 		}
