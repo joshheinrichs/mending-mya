@@ -1,1 +1,3 @@
-# global-game-jam-2020
+# mending mya
+
+regina global game jam 2020
