@@ -7,9 +7,9 @@ if(x<0 and global.start==true)
 	global.start=false
 	global.timing=false
 	ds_list_sort(global.scores,true)
-	ds_list_delete(global.scores,4)
-	oComputer.high1=ds_list_find_value(global.scores,1)
-	oComputer.high2=ds_list_find_value(global.scores,2)
-	oComputer.high3=ds_list_find_value(global.scores,3)
+	ds_list_delete(global.scores,3)
+	oComputer.high1=ds_list_find_value(global.scores,0)
+	oComputer.high2=ds_list_find_value(global.scores,1)
+	oComputer.high3=ds_list_find_value(global.scores,2)
 	room_goto(rAlex)
 }

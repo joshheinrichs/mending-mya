@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "6044dc37-f007-4154-82c6-151a1414dd3d",
+            "Value": {
+                "id": "5bf5dc46-b9e1-4b57-9312-51ca09dc9b7d",
+                "resourcePath": "fonts\\LConsL\\LConsL.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "606c5c5a-986e-478b-962e-e473e5e33f80",
             "Value": {
                 "id": "efedea0d-aa93-4591-a8c2-c433826bfd12",
@@ -439,6 +447,14 @@
             }
         },
         {
+            "Key": "9880a0cd-8aa6-49d9-be47-ce99336233e9",
+            "Value": {
+                "id": "04552516-141a-41af-bb13-974022f2aa35",
+                "resourcePath": "objects\\oHelp\\oHelp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9ef3d027-9d8d-4820-a410-3f632ae55e9f",
             "Value": {
                 "id": "7b64c6fc-5a7a-4381-afc9-63366e42cb47",
@@ -603,6 +619,14 @@
             "Value": {
                 "id": "f71942ea-7de3-48f1-ac90-6dbd13f2d1de",
                 "resourcePath": "sprites\\sComputer\\sComputer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c7c8b4e1-e9e5-480c-b9b4-0ecd156833f9",
+            "Value": {
+                "id": "0a22a717-38ef-44eb-b9db-5287fa662e54",
+                "resourcePath": "sprites\\sHelp\\sHelp.yy",
                 "resourceType": "GMSprite"
             }
         },
