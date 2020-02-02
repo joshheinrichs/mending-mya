@@ -5,26 +5,6 @@
     "name": "obDog",
     "eventList": [
         {
-            "id": "76e47498-08a7-4535-8c8d-a069a8a4a601",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "087a3887-338f-4646-9173-828b213196f0"
-        },
-        {
-            "id": "66baf6f0-db4b-41f5-99b1-d51b58a63f96",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "087a3887-338f-4646-9173-828b213196f0"
-        },
-        {
             "id": "9e127d59-dc43-4f7a-b3b7-c55efe4db2a4",
             "modelName": "GMEvent",
             "mvc": "1.0",

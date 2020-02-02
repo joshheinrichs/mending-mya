@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-phy_active=true
-depth=10
+if (global.start) {
+	physics_joint_delete(joint)
+}
