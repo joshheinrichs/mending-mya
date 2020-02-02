@@ -76,7 +76,8 @@ if (grabbed != noone)
 				show_debug_message("weld")
 				var joint
 				if (o2.object_index == oSmallMotor) {
-					joint = physics_joint_revolute_create(o1, o2, o2.x, o2.y, 0, 0, false, 1000, 10, true, false)
+					joint = physics_joint_revolute_create(o1, o2, o2.x, o2.y, 0, 0, false, 1000, 10, false, false)
+					ds_list_add(motor_joints, joint)
 				} else {
 					joint = physics_joint_revolute_create(o1, o2, mouse_x, mouse_y, 0, 0, true, 10, 10, false, false)
 					// joint = physics_joint_weld_create(o1, o2, mouse_x, mouse_y, point_direction(o1.x, o1.y, mouse_x, mouse_y), 0, 0, false)
@@ -117,10 +118,21 @@ if (grabbed != noone)
 					ds_list_delete(weld_welds, ds_list_find_index(weld_welds, o1))
 					
 					physics_joint_delete(joint)
+					
+					if (ds_list_find_index(motor_joints, joint) != -1) {
+						ds_list_delete(motor_joints, ds_list_find_index(motor_joints, joint))
+					}
 				}
 				ds_list_clear(welds)
 			}
 		}
+	}
+}
+
+if (global.start) {
+	for (var i=0; i<ds_list_size(motor_joints); i+=1) {
+		var motor_joint = ds_list_find_value(motor_joints, i)
+		physics_joint_enable_motor(motor_joint, true)
 	}
 }
 
