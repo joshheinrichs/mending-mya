@@ -22,9 +22,9 @@ else if(comp==true)
 	draw_text(20,80,"-press F for fullscreen")
 	draw_text(20,90,"-press play to release Mya and activate the motor and rocket")
 	draw_text(20,200,"high scores:")
-	draw_text(20,210,"1. " + string(global.high1))
-	draw_text(20,220,"2. " + string(global.high2))
-	draw_text(20,230,"3. " + string(global.high3))
+	draw_text(20,210,"1. " + string(high1))
+	draw_text(20,220,"2. " + string(high2))
+	draw_text(20,230,"3. " + string(high3))
 	
 	
 	
