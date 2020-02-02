@@ -7,3 +7,12 @@ if(keyboard_check_pressed(vk_enter))
 		global.start=true	
 	}	
 }
+if(global.start==true and global.timing=false)
+{
+	global.timing=true
+	timer=0;
+}
+if (global.timing==true)
+{
+	timer+=1;	
+}

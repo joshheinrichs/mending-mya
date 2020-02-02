@@ -207,14 +207,6 @@
             }
         },
         {
-            "Key": "43644c13-9e61-4138-bdd9-904f5e200e98",
-            "Value": {
-                "id": "3344e82a-61ae-4f42-9b53-693ad0f352f6",
-                "resourcePath": "rooms\\rJosh\\rJosh.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "4724a23b-f202-4b8c-b289-a2f0d2182710",
             "Value": {
                 "id": "0a0a9f5b-46b1-4b34-8fc9-bbb3220e45cc",
@@ -407,6 +399,14 @@
             }
         },
         {
+            "Key": "983bfb69-9cd3-4357-8211-5a84a5ca3f01",
+            "Value": {
+                "id": "463dd7be-1a27-403f-8de3-6f3366d84eba",
+                "resourcePath": "objects\\oComputer\\oComputer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9ef3d027-9d8d-4820-a410-3f632ae55e9f",
             "Value": {
                 "id": "7b64c6fc-5a7a-4381-afc9-63366e42cb47",
@@ -420,6 +420,14 @@
                 "id": "7af2f398-04cc-428e-a2cb-9aca8ec39a7b",
                 "resourcePath": "scripts\\freeze_object\\freeze_object.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a562c5bd-0268-4100-b449-c82314820465",
+            "Value": {
+                "id": "cdaa4bbc-b7a4-44fa-b1bb-8b217221c9b6",
+                "resourcePath": "objects\\oRocketParticles\\oRocketParticles.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -575,6 +583,14 @@
             }
         },
         {
+            "Key": "d21a99e2-d2a0-466c-8eb2-45709f930354",
+            "Value": {
+                "id": "87acd54d-d71c-4e2c-b172-43bf9f54803f",
+                "resourcePath": "objects\\oSnake\\oSnake.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d411fc59-72a6-4de1-af65-1fa9f403ba1e",
             "Value": {
                 "id": "5fea1a89-63a9-4961-bc5b-d2b526f7bdc1",
@@ -647,6 +663,14 @@
             }
         },
         {
+            "Key": "ed157f38-7c72-4019-8d5a-487c6d69049b",
+            "Value": {
+                "id": "1bf29753-3424-40da-b237-3f6efffec76a",
+                "resourcePath": "scripts\\DG_particle1\\DG_particle1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ef749135-33f6-4777-8886-b01a92a5c2b8",
             "Value": {
                 "id": "230a2759-24c7-4df5-a4a6-9a13ed2dd00c",
@@ -672,7 +696,8 @@
         }
     ],
     "script_order": [
-        "a0d2257e-04b0-4c7a-be98-51dda3d83b5b"
+        "a0d2257e-04b0-4c7a-be98-51dda3d83b5b",
+        "ed157f38-7c72-4019-8d5a-487c6d69049b"
     ],
     "tutorial": ""
 }
