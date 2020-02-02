@@ -207,14 +207,6 @@
             }
         },
         {
-            "Key": "43644c13-9e61-4138-bdd9-904f5e200e98",
-            "Value": {
-                "id": "3344e82a-61ae-4f42-9b53-693ad0f352f6",
-                "resourcePath": "rooms\\rJosh\\rJosh.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "4724a23b-f202-4b8c-b289-a2f0d2182710",
             "Value": {
                 "id": "0a0a9f5b-46b1-4b34-8fc9-bbb3220e45cc",
@@ -420,6 +412,14 @@
                 "id": "7af2f398-04cc-428e-a2cb-9aca8ec39a7b",
                 "resourcePath": "scripts\\freeze_object\\freeze_object.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a562c5bd-0268-4100-b449-c82314820465",
+            "Value": {
+                "id": "cdaa4bbc-b7a4-44fa-b1bb-8b217221c9b6",
+                "resourcePath": "objects\\oRocketParticles\\oRocketParticles.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "ed157f38-7c72-4019-8d5a-487c6d69049b",
+            "Value": {
+                "id": "1bf29753-3424-40da-b237-3f6efffec76a",
+                "resourcePath": "scripts\\DG_particle1\\DG_particle1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ef749135-33f6-4777-8886-b01a92a5c2b8",
             "Value": {
                 "id": "230a2759-24c7-4df5-a4a6-9a13ed2dd00c",
@@ -672,7 +680,8 @@
         }
     ],
     "script_order": [
-        "a0d2257e-04b0-4c7a-be98-51dda3d83b5b"
+        "a0d2257e-04b0-4c7a-be98-51dda3d83b5b",
+        "ed157f38-7c72-4019-8d5a-487c6d69049b"
     ],
     "tutorial": ""
 }
