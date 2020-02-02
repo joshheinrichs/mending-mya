@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oSnakeAss",
     "eventList": [
-        
+        {
+            "id": "bb997048-8447-4c2a-8363-4395100a56bc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c31764ef-d377-4405-b4df-874af12d9319"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
