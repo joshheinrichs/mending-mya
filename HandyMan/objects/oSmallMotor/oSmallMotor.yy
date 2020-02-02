@@ -5,16 +5,6 @@
     "name": "oSmallMotor",
     "eventList": [
         {
-            "id": "53dbff7d-2987-4a14-b3b6-5b4e142a3ecc",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "04a6e14d-8ad5-4e18-a6e1-7314337f5804"
-        },
-        {
             "id": "181602a3-184f-4652-b164-7fbf48d46f39",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -35,11 +25,40 @@
     "physicsGroup": 0,
     "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
-    "physicsObject": false,
+    "physicsObject": true,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 1,
-    "physicsShapePoints": null,
+    "physicsShapePoints": [
+        {
+            "id": "898defc8-a02d-4947-bbd0-386e85c4af61",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "c257ecf9-2be2-4331-8327-fe3e1b5764f2",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 16,
+            "y": 0
+        },
+        {
+            "id": "7993b00c-4986-408a-9fb3-3b318936562f",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 16,
+            "y": 16
+        },
+        {
+            "id": "88ac16ff-8588-4290-912b-234cf5fabb4e",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 16
+        }
+    ],
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,

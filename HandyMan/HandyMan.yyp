@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "6f87ce32-fd7f-4371-81eb-dbe3d049cb43",
+            "Value": {
+                "id": "6b8cb050-c9d1-4f2d-ae95-6c8e5867c3af",
+                "resourcePath": "objects\\oPhysical\\oPhysical.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "73c93049-7603-4e6f-9977-200f98150250",
             "Value": {
                 "id": "dfee9cdf-91a4-4f45-9e0f-3c8366ee29dd",
@@ -388,6 +396,14 @@
                 "id": "86c26780-21de-413f-9e0e-6ada0993e9f1",
                 "resourcePath": "objects\\oGarageFloor\\oGarageFloor.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b0e1ac91-631c-49c6-8958-2a75cc17eec0",
+            "Value": {
+                "id": "f4d08ec2-d01f-4e7b-b576-e96745a3bbf0",
+                "resourcePath": "sprites\\sprite16\\sprite16.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
