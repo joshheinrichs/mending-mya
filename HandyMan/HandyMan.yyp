@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "57919964-b275-4da7-bee7-469acaaabebd",
+            "Value": {
+                "id": "eefa48d6-0de8-4c49-a9af-080220ef90d8",
+                "resourcePath": "fonts\\LCons\\LCons.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "5a25b351-4756-4d27-81e0-61ea617177ae",
             "Value": {
                 "id": "98597cde-2e82-4cd1-94e2-5508c7b834f7",
