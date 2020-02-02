@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "119b4fbd-86ae-48a8-a04c-3b77e93ea86f",
+            "Value": {
+                "id": "9c244f00-430b-4245-8047-2d417b9a7802",
+                "resourcePath": "objects\\oResetBase\\oResetBase.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "16eeb7e6-eb35-44cc-9c3e-960122271e0c",
             "Value": {
                 "id": "75459e29-777a-4904-9cff-1fe5ad0e5c1e",
@@ -92,6 +100,14 @@
                 "id": "f56f57d0-7bc4-48cb-9a8d-29d2d904dcc8",
                 "resourcePath": "sprites\\sWorkbench\\sWorkbench.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2602d758-cd80-48c7-8f5d-84e39ba3d639",
+            "Value": {
+                "id": "e1a86ad9-fdf4-4a2a-992c-08bb219f7503",
+                "resourcePath": "objects\\oGo\\oGo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -223,6 +239,14 @@
             }
         },
         {
+            "Key": "574aff5b-deec-4154-b4a8-fc35246f2481",
+            "Value": {
+                "id": "a0ede48a-5e6c-4d9a-b1cd-7857e25f16d5",
+                "resourcePath": "sprites\\sResetBase\\sResetBase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a25b351-4756-4d27-81e0-61ea617177ae",
             "Value": {
                 "id": "98597cde-2e82-4cd1-94e2-5508c7b834f7",
@@ -335,6 +359,30 @@
             }
         },
         {
+            "Key": "7ae6e4e8-0c89-4edf-a085-c5e9ea2fd26a",
+            "Value": {
+                "id": "bc2e40e8-2b70-48f3-8fc2-d026b7bc6f12",
+                "resourcePath": "objects\\oReset\\oReset.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7db1d820-e4bd-4660-8fc3-955e8a60d9e1",
+            "Value": {
+                "id": "a9d1e879-6c62-46d6-a127-0a5f19f5949c",
+                "resourcePath": "objects\\oGoBase\\oGoBase.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7eb05f78-9e3d-48d8-959a-b1c9e7f1a7dd",
+            "Value": {
+                "id": "9ca17b06-6953-49d8-ac9f-25b7157fb3cf",
+                "resourcePath": "sprites\\sReset\\sReset.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85791ae6-09b1-4b9e-971f-b92deec48aae",
             "Value": {
                 "id": "c04250a5-f997-411b-b626-492895c066da",
@@ -356,6 +404,14 @@
                 "id": "f9a096f2-dd71-4b1e-9407-8597b9245072",
                 "resourcePath": "objects\\oGame\\oGame.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9ef3d027-9d8d-4820-a410-3f632ae55e9f",
+            "Value": {
+                "id": "7b64c6fc-5a7a-4381-afc9-63366e42cb47",
+                "resourcePath": "sprites\\sGo\\sGo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -444,6 +500,14 @@
                 "id": "3f642015-2f60-42b5-a895-03a1c8de5304",
                 "resourcePath": "views\\c09535fd-6256-42c8-b1d0-3148c41b2815.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c189b45a-b8ad-4526-a2b5-de783cc5c673",
+            "Value": {
+                "id": "a64e6d10-cbf3-4aae-b602-c15de8b746e7",
+                "resourcePath": "sprites\\sGoBase\\sGoBase.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
