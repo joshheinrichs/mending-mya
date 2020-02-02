@@ -191,6 +191,22 @@
             }
         },
         {
+            "Key": "4724a23b-f202-4b8c-b289-a2f0d2182710",
+            "Value": {
+                "id": "0a0a9f5b-46b1-4b34-8fc9-bbb3220e45cc",
+                "resourcePath": "sprites\\sSnakeAss\\sSnakeAss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4fe90bbb-4387-462c-91e5-a82c7758f8f9",
+            "Value": {
+                "id": "18582c21-5845-4e80-9ea8-ba836e1e917c",
+                "resourcePath": "objects\\oSnakeBody\\oSnakeBody.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5171351f-2588-4f0e-9b36-568291b824bc",
             "Value": {
                 "id": "3c92af5b-4dd2-4bbe-86c1-3ace5a6368cc",
@@ -268,6 +284,22 @@
                 "id": "1a054da5-bcad-4f36-b6d2-0a1da6591224",
                 "resourcePath": "views\\6e2da63c-e694-4fd3-bbd6-10637ff00817.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "70999c96-a4f2-43cc-9698-62756ab5d405",
+            "Value": {
+                "id": "8d4dc276-30a8-4a41-9d5a-0f65f95424a0",
+                "resourcePath": "sprites\\sSnakeHead\\sSnakeHead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "72f71db4-1afa-4ba9-a606-23a6471cd648",
+            "Value": {
+                "id": "43873ff4-7f26-48d4-be77-a29304b5176f",
+                "resourcePath": "objects\\oSnakeHead\\oSnakeHead.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -388,6 +420,22 @@
                 "id": "3f642015-2f60-42b5-a895-03a1c8de5304",
                 "resourcePath": "views\\c09535fd-6256-42c8-b1d0-3148c41b2815.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c31764ef-d377-4405-b4df-874af12d9319",
+            "Value": {
+                "id": "6ff15ac1-fb7f-4369-a25a-139e16f1cb25",
+                "resourcePath": "objects\\oSnakeAss\\oSnakeAss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c49e7339-5205-465c-a471-d4fc2da8ab2f",
+            "Value": {
+                "id": "fed336e6-479a-4b96-8480-e54c7fb28cbb",
+                "resourcePath": "sprites\\sSnakeBody\\sSnakeBody.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
