@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited()
+phy_active=true
 ropeLen=2
 for(i=0; i<5; i+=1)
 {
