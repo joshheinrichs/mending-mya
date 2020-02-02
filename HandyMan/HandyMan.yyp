@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "42bd86a7-dd4b-472c-b3d7-73e1e465eea0",
+            "Value": {
+                "id": "211a514e-1b92-45bc-adb1-e12184c06051",
+                "resourcePath": "objects\\oHockeyStick\\oHockeyStick.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "43644c13-9e61-4138-bdd9-904f5e200e98",
             "Value": {
                 "id": "3344e82a-61ae-4f42-9b53-693ad0f352f6",
@@ -212,6 +220,14 @@
                 "id": "efedea0d-aa93-4591-a8c2-c433826bfd12",
                 "resourcePath": "views\\606c5c5a-986e-478b-962e-e473e5e33f80.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "60b0b9ea-50ea-4b57-938d-e30c786683da",
+            "Value": {
+                "id": "4172794d-5128-4dd2-b783-5b0bad2b8ac6",
+                "resourcePath": "objects\\oBBall\\oBBall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -303,11 +319,27 @@
             }
         },
         {
+            "Key": "a6cbb82e-3a8d-4eec-b608-f46a20dd68d4",
+            "Value": {
+                "id": "d57a6839-8c21-4b1c-b400-56fbe6054fad",
+                "resourcePath": "sprites\\sBBall\\sBBall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "4a0be683-3431-4284-9857-023f3eb54bd7",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "abc78d20-6e5c-4742-b62d-04b824dc87af",
+            "Value": {
+                "id": "50429686-9924-4dbe-84cb-f07523ea2129",
+                "resourcePath": "sprites\\sTennisBall\\sTennisBall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -415,6 +447,14 @@
             }
         },
         {
+            "Key": "d53649ca-4fc1-47de-b4d7-a49aa88cd5ad",
+            "Value": {
+                "id": "63a276eb-b991-4be6-a6d2-bfabfaa1d403",
+                "resourcePath": "sprites\\sHockeyStick\\sHockeyStick.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2089f84-5a17-467d-9488-fd8365061a4f",
             "Value": {
                 "id": "ab758028-829e-4344-85ce-5cd0262eaa27",
@@ -459,6 +499,14 @@
             "Value": {
                 "id": "81345b46-5850-46bd-bda1-9a72a7bbe6f3",
                 "resourcePath": "objects\\oWorkbench\\oWorkbench.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ef749135-33f6-4777-8886-b01a92a5c2b8",
+            "Value": {
+                "id": "230a2759-24c7-4df5-a4a6-9a13ed2dd00c",
+                "resourcePath": "objects\\oTennisBall\\oTennisBall.yy",
                 "resourceType": "GMObject"
             }
         },
