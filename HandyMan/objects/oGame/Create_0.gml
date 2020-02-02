@@ -3,6 +3,8 @@
 global.start = false
 global.fixed = false
 
+window_set_cursor(cr_none)
+
 grabbed = noone
 object_joints = ds_map_create()
 object_welds = ds_map_create()

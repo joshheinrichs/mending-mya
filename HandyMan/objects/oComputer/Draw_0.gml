@@ -32,6 +32,6 @@ else if(comp==true)
 	if(mouse_check_button_pressed(mb_left))
 	{
 		comp=false
-		depth=100
+		depth=99
 	}
 }
